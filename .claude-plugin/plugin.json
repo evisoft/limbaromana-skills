@@ -1,0 +1,22 @@
+{
+  "name": "limbaromana",
+  "displayName": "Limba Română",
+  "description": "Skill-uri pentru limba română: corector de gramatică/ortografie/diacritice, generator de poezie și generator de proză literară.",
+  "version": "1.0.0",
+  "author": {
+    "name": "evisoft"
+  },
+  "homepage": "https://github.com/evisoft/limbaromana",
+  "repository": "https://github.com/evisoft/limbaromana",
+  "license": "MIT",
+  "keywords": [
+    "limba-romana",
+    "romanian",
+    "gramatica",
+    "ortografie",
+    "diacritice",
+    "poezie",
+    "proza",
+    "corector"
+  ]
+}

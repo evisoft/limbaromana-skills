@@ -23,6 +23,25 @@ Plugin-ul grupează trei *Agent Skills*, fiecare în propriul director sub `skil
 
 Skill-urile devin disponibile imediat și se activează automat când contextul conversației se potrivește cu descrierea lor (vezi cuvintele-cheie din tabel). Pot fi invocate și explicit, prin numele namespace-uit `/limbaromana:<skill>`.
 
+## Instalare în Claude.ai / Claude Desktop (Skills)
+
+Fiecare skill e disponibil ca pachet `.zip` gata de încărcat, în directorul [`dist/`](dist/) (sau din secțiunea [Releases](https://github.com/evisoft/limbaromana-skills/releases)):
+
+| Pachet | Conține |
+|--------|---------|
+| `dist/profesor-roman.zip` | `profesor-roman/SKILL.md` |
+| `dist/poet-roman.zip` | `poet-roman/SKILL.md` |
+| `dist/scriitor-roman.zip` | `scriitor-roman/SKILL.md` |
+
+Pași:
+
+1. Descarcă fișierul `.zip` dorit (un pachet per skill).
+2. În Claude, mergi la **Settings → Capabilities → Skills** (sau **Custom skills**).
+3. Apasă **Upload skill** și selectează fișierul `.zip`.
+4. Activează skill-ul. Se va declanșa automat în conversații pe baza descrierii sale.
+
+> Fiecare `.zip` conține un singur folder de nivel superior (numele skill-ului) cu `SKILL.md` înăuntru — formatul cerut de upload-ul de skill-uri.
+
 ## Instalare manuală (fără plugin)
 
 Dacă preferi să copiezi skill-urile direct în folderul tău de skill-uri:

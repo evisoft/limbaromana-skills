@@ -17,7 +17,7 @@ Plugin-ul grupează trei *Agent Skills*, fiecare în propriul director sub `skil
 În Claude Code, adaugă repository-ul ca marketplace și instalează plugin-ul:
 
 ```
-/plugin marketplace add evisoft/limbaromana
+/plugin marketplace add evisoft/limbaromana-skills
 /plugin install limbaromana@limbaromana
 ```
 
@@ -28,9 +28,9 @@ Skill-urile devin disponibile imediat și se activează automat când contextul 
 Dacă preferi să copiezi skill-urile direct în folderul tău de skill-uri:
 
 ```bash
-git clone https://github.com/evisoft/limbaromana.git
+git clone https://github.com/evisoft/limbaromana-skills.git
 for s in profesor-roman poet-roman scriitor-roman; do
-  cp -r "limbaromana/skills/$s" ~/.claude/skills/
+  cp -r "limbaromana-skills/skills/$s" ~/.claude/skills/
 done
 ```
 
